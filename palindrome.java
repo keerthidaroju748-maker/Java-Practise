@@ -1,5 +1,5 @@
 public class palindrome {
-public static void main(String[] args) {
+    public static void main(String[] args) {
         String original = "civic";
         StringBuilder sb = new StringBuilder(original);
         
@@ -7,8 +7,8 @@ public static void main(String[] args) {
             System.out.println("Palindrome");
         }
          else {
-            System.out.println("Not Palindrome");
-         }
-    }
+            System.out.println("Not Palindrome"); 
+        }
+    }
 }
 
